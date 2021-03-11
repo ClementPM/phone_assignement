@@ -1,0 +1,8 @@
+<h1>All phones</h1>
+<ul>
+  <% @phones.each do |phone| %>
+    <li> <%= link_to phone.brand, phone_path(phone) %>
+    <%= link_to phone.name, phone_path(phone) %>
+    </li>
+  <% end %>
+</ul>

@@ -1,0 +1,18 @@
+<h2>Model: <%= @phone.name %></h2>
+<p>Brand: <%= @phone.brand %></p>
+<p>IMEI Number: <%= @phone.imei %></p>
+<p>Color: <%= @phone.color %></p>
+<p>Capacity: <%= @phone.capacity %> GO</p>
+  
+    <small>
+      <%= link_to  edit_phone_path(@phone), class: 'btn btn-primary' do %>
+        <i class="fa fa-pencil"></i>
+        <% end %>
+
+      <%= link_to phone_path(@phone), method: :delete, class: 'btn btn-danger', data: { confirm: 'Are you sure?' } do %>
+        <i class="fa fa-trash-o"></i>
+      <% end %>
+    </small>
+<br>
+<br>
+ <%= link_to 'See all phones', phones_path, class: 'btn btn-secondary' %>
