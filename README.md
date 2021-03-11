@@ -1,24 +1,9 @@
-# README
+# INSTRUCTIONS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+From there you can clone it or extract it in your local machine.
+To run it, just type the following command, in the directory
 
-Things you may want to cover:
+     * bundle install
+     * rails s
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+open your browser at the URL localhost:3000
